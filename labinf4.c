@@ -4,6 +4,8 @@
 
 #define L 100001
 
+//2 ВАРИАНТ
+
 int f(int n)
 {
 	if (n < 2) 
@@ -105,4 +107,5 @@ int main()
 	printf("2nd task:  %lf", g(x, N));
 	printf("\n2nd task recurrent:  %lf", dg(x, N));
 	return 0;
+
 }
